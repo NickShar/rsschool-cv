@@ -2,7 +2,7 @@
 ## Junior Frontend Developer
 #
 ## Contact information:
-* Phone: +375(29)222-33-44 (Telegram, Viber)
+* Phone: +375(29) 529-63-80 (Telegram, Viber)
 * E-mail:  sharninnn@mail.ru
 * GitHub:  [NickShar](https://github.com/NickShar) 
 ## About Me
