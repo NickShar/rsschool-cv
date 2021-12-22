@@ -8,4 +8,5 @@ body{background-color: #f0f0f0;}
     box-shadow: 1px 2px 30px #999;
     margin: 30px auto;
     border-radius: 10px;
+    box-sizing: border-box;
 }
