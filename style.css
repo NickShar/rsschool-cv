@@ -12,19 +12,38 @@ body{background-color: #f0f0f0;}
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2{font-family: 'Montserrat', sans-serif; position: relative;}
-h1{font-weight: 700; font-size: 40px;}
-h2{margin: 40px 0 15px;}
+h2{font-family: 'Montserrat', sans-serif; position: relative;}
+h1{font-weight: 900; font-size: 40px;}
+h2{margin: 40px 0 15px 10px;}
 h2::after {
     content: '';
     width: 50px;
-    height: 3px;
-    background: rgb(9, 105, 218);
+    height: 1px;
+   background: rgba(9, 105, 218, 0);
     position: absolute;
-    left: 0;
+    left: -10px;
     bottom: -5px;
     transition: all 0.2s linear;
 }
 h2:hover::after {
-   width: 100px;
+   width: 140px;
+    height: 1px;
+    bottom: -5px;
+     background: rgba(9, 105, 218, 0.5);
+}
+
+h2::before {
+    content: '';
+    width: 3px;
+    height: 40px;
+   background: rgba(9, 105, 218, 0.5);
+    position: absolute;
+    left: -10px;
+    bottom: -5px;
+    transition: all 0.1s linear;
+}
+h2:hover::before {
+    height: 1px;
+    bottom: -5px;
+     background: rgba(9, 105, 218, 0);
 }
