@@ -9,4 +9,21 @@ body{background-color: #f0f0f0;}
     margin: 30px auto;
     border-radius: 10px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{font-family: 'Montserrat', sans-serif; position: relative;}
+
+h1::after, h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: rgb(9, 105, 218);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.2s linear;
+}
+h1:hover::after, h2:hover::after {
+   width: 100px;
 }
