@@ -12,13 +12,24 @@
 </head>
 <body>
   <div class="maincvbody">
+    <header>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     
-      <section>     
+      <section id="myname">  
+        <img  class="avatar" src="./avatar.jpg" alt="Nick Sharnin - Junior Frontend Developer">   
         <h1>Nick Sharnin</h1>
   <h3>Junior Frontend Developer</h3>
+  <hr class="greybg" />
 </section>
-<section>
+<section id="contacts">
    <h2>
     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 557.389 557.389" style="enable-background:new 0 0 557.389 557.389;"
@@ -58,7 +69,7 @@
     <li>GitHub:  <a href="https://github.com/NickShar">NickShar</a></li>
   </ul>
 </section>
-<section>
+<section id="summary">
   <h2>
     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
@@ -115,6 +126,8 @@
     About Me</h2>
       <p>I am an ambitious and hardworking person who strives for development, both professional and personal. 
   I am eager to be challenged in order to grow and further improve my IT skills.</p>
+  </section>
+  <section id="skills">
 <h2 >
   <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve">
@@ -260,7 +273,10 @@
        
     </main>
     <footer>
-
+      <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/NickShar" class="github nav-link">NickShar</a></div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
     </footer>
   </div> 
 </body>
