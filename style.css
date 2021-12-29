@@ -85,6 +85,14 @@ h2:hover::after {
      background: rgba(9, 105, 218, 0.5);
 }
 
+#code{
+    margin: 20px -40px;
+    background: #f0f0f0;
+    padding: 10px 40px;
+}
+
+#code pre{font-size: 1.1em; line-height: 20px; white-space: pre-wrap;}
+
 
 footer{
     background-color: #333;
