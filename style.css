@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body{background-color: #f0f0f0;}
+
+.maincvbody{
+    max-width: 1340px;
+    width: 95%;
+    background-color: #fff;
+    box-shadow: 1px 2px 30px #999;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: rgba(9, 105, 218, 0.7);
+    padding: 5px 15px;
+   color: #fff;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-list {
+    list-style: none;
+    margin: 0;
+padding: 5px 0;
+  }
+
+  .nav-link {
+    padding: 0px 20px;
+    color: #fff;
+  }
+
+main{padding: 30px 40px;}
+.greybg{
+    height: 2px; background: #f0f0f0; margin: 10px 5px 10px 0; border: 0px none; max-width: 1000px;
+}
+.avatar{float: right; margin: 5px;}
+
+@media (max-width: 768px) {
+    .avatar{float: none; margin: 15px auto; display: block;}
+    #myname{text-align: center;}
+    .nav-list {
+        justify-content: center;
+      }
+  }
+
+h2{font-family: 'Montserrat', sans-serif; position: relative;}
+h1{font-weight: 900; font-size: 40px;}
+h2{margin: 40px 0 15px 5px;}
+
+h2 svg{
+    width: 35px;
+margin: 0 5px -12px -5px;
+transition: all 0.2s linear;
+}
+@media (max-width: 768px) {
+    h2 svg{width: 25px; margin: 0 5px -4px -5px;}
+}
+h2:hover svg{margin-left: -10px; fill: rgba(9, 105, 218, 1);} 
+h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+   background: rgba(9, 105, 218, 0);
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+    transition: all 0.2s linear;
+}
+h2:hover::after {
+   width: 140px;
+    height: 3px;
+    bottom: -5px;
+    left: 35px;
+     background: rgba(9, 105, 218, 0.5);
+}
+
+
+footer{
+    background-color: #333;
+    padding: 15px;
+   color: #fff;
+   font-size: 0.9em;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
