@@ -2,7 +2,6 @@
 ## Junior Frontend Developer
 
 ## Contact information:
-* Phone: +375(29) 529-63-80 (Telegram, Viber)
 * E-mail:  sharninnn@mail.ru
 * GitHub:  [NickShar](https://github.com/NickShar)
 
@@ -22,7 +21,7 @@ I am eager to be challenged in order to grow and further improve my IT skills.
 * Belarusian State University of Informatics and Radioelectronics, Faculty of Engineering and Economics, 2008.
 *  RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
 ## Experience
-Joomla, Wordpress, ModX
+* HTML, CSS
 ## Languages
 * Russian - native speaker.
 * English - A2/B1.
